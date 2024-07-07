@@ -1,7 +1,7 @@
 K8's Commands
 --------------
 
-kubectl get pods
+kubectl get pods -o wide
 kubectl get pods --show-labels
 kubectl get nodes
 kubectl get ns/namespaces
@@ -36,7 +36,3 @@ kubectl scale rc rcname --replicas
 
 
 kubectl rollout undo deployment depplymentName --to-revision1
-
-
-
-
